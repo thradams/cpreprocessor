@@ -38,7 +38,6 @@ bool IsFullPath(const char* path)
       {
         if (path[2] == '\\')
         {
-          //Ve se tem pontos ..\ 
           const char* p = &path[2];
 
           while (*p)
