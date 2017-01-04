@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Scanner">
+      <UniqueIdentifier>{73ba8700-8fbd-4409-8139-ff151dc72d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{4548df72-bf89-49f5-bc3f-f3d2abdfeee9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scanner\BasicScanner.h">
+      <Filter>Source Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanner\Scanner.h">
+      <Filter>Source Files\Scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Array.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\config.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\dmalloc.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Map.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Result.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\StrBuilder.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Stream.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\StringEx.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scanner\BasicScanner.c">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanner\Scanner.c">
+      <Filter>Source Files\Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Array.c">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\dmalloc.c">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Map.c">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\StrBuilder.c">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Stream.c">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\StringEx.c">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CPreprocessor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt" />
+  </ItemGroup>
+</Project>

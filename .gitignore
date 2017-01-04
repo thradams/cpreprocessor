@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CPreprocessor/CPreprocessor/Debug/CPreprocessor.tlog
+/CPreprocessor/CPreprocessor/Debug
+/CPreprocessor/Debug
+/CPreprocessor/ipch/CPREPROCESSOR-f5abad67
+/CPreprocessor/CPreprocessor.VC.VC.opendb
+/CPreprocessor/CPreprocessor.VC.db
+/CPreprocessor/.vs/CPreprocessor/v14
+/CPreprocessor/CPreprocessor/CPreprocessor.vcxproj.user
